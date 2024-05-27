@@ -9,6 +9,6 @@ average_ball = (sum(grades[0]) / len(grades[0]), sum(grades[1]) / len(grades[1])
                 sum(grades[3]) / len(grades[3]), sum(grades[4]) / len(grades[4]))
 print(average_ball)
 dictionary = dict(zip(students_list, average_ball))
-print(dictionary)
+print(dictionary) 
 
 

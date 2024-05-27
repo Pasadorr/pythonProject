@@ -40,40 +40,40 @@ def draw_area():
     print()
 
 area = [['*', '*', '*'], ['*', '*', '*'], ['*', '*', '*']]
-draw_area()
+print('Поиграем в игру?')
+print(input('Если вы готовы, то нажмите "Да"'))
 
+draw_area()
 for turn in range(1, 10):
-    print(f'Ваш ход {turn}')
+    print(f'Твой ход {turn}')
     if turn % 2 == 0:
         turn_char = '0'
-        print('Ходят нолики')
-
+        print('0 turn')
     else:
         turn_char = 'X'
-        print('Ходят крестики')
+        print('X turn')
     row = int(input('Введите номер строки (1, 2, 3) ')) - 1
     column = int(input('Введите номер колонны (1, 2, 3) ')) - 1
     if area[row][column] == '*':
         area[row][column] = turn_char
     else:
-        print('Ты охуел?')
+        print('It`s occupied')
         draw_area()
         continue
+
+    area[row][column] = turn_char
     draw_area()
 
     if check_winner() == 'X':
-        print('X won')
+        print('XXX WON')
         break
+
     if check_winner() == '0':
-        print('Zero won')
+        print('ZERO WON')
         break
-    if check_winner() == '*' and turn_char == 9:
-        print('Losers')
+    if check_winner() == '*' and turn == 9:
+        print('NOONE WINS')
         break
-
-
-
-
 
 
 

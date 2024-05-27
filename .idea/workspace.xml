@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709a977-cc28-4b34-bec8-8255ea65080d" name="Changes" comment="Edited">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Крестики нолики сам.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Крестики-нолики.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1hard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Функции практика.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework For Cycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework For Cycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Крестики нолики сам.py" beforeDir="false" afterPath="$PROJECT_DIR$/Крестики нолики сам.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,14 +53,24 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.Game.executor": "Run",
     "Python.Homework For Cycle.executor": "Run",
+    "Python.Recursion.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.module1hard.executor": "Run",
     "Python.Крестики нолики сам.executor": "Run",
     "Python.Крестики-нолики.executor": "Run",
+    "Python.Функции практика.executor": "Run",
     "Python.Функции.executor": "Run",
+    "Python.Фунции по умолчанию Модуль 3 Самостоятельная работа.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sabrzhan777gmail.com/PycharmProjects/pythonProject1/Module 1/pythonProject"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,11 +103,52 @@
       <option name="project" value="LOCAL" />
       <updated>1714395775397</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Edited">
+      <option name="closed" value="true" />
+      <created>1714489635716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714489635717</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edited">
+      <option name="closed" value="true" />
+      <created>1714489867479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714489867479</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Edited">
+      <option name="closed" value="true" />
+      <created>1714499090043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714499090043</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Edited">
+      <option name="closed" value="true" />
+      <created>1714499106444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714499106444</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edited">
+      <option name="closed" value="true" />
+      <created>1714560162317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714560162317</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Edited" />
     <option name="LAST_COMMIT_MESSAGE" value="Edited" />
   </component>
