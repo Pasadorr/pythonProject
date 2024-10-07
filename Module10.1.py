@@ -16,7 +16,6 @@ def timed_write_words(word_count, file_name):
     end_time = time()
     print(f"Время записи в файл {file_name}: {end_time - start_time:.2f} секунд")
 
-
 timed_write_words(10, 'example1.txt')
 timed_write_words(30, 'example2.txt')
 timed_write_words(200, 'example3.txt')
