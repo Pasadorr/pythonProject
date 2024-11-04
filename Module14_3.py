@@ -8,7 +8,7 @@ from aiogram import executor
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import logging
 
-api = '7929017949:AAFbKr4_NnW-HeULUuyCxn5cDRTAKRkEuj0'
+api = ''
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=api)
