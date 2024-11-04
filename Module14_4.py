@@ -5,7 +5,7 @@ from aiogram import executor
 import logging
 from crud_functions import initiate_db, get_all_products
 
-api = '7929017949:AAFbKr4_NnW-HeULUuyCxn5cDRTAKRkEuj0'
+api = ''
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
