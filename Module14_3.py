@@ -8,7 +8,7 @@ from aiogram import executor
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import logging
 
-api = ''
+api = '7929017949:AAFbKr4_NnW-HeULUuyCxn5cDRTAKRkEuj0'
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=api)
@@ -38,7 +38,7 @@ async def start(message: types.Message):
                          reply_markup=main_menu_kb)
 
 
-@dp.message_handler(lambda message: message.text == "Купить")
+@dp.message_handler(text="Купить")
 async def buy_products(message):
     logging.info("User pressed 'Купить'. Sending product list.")
     await get_buying_list(message)
@@ -67,9 +67,7 @@ async def send_confirm_message(call):
         'product4': 'Product4'
     }[call.data]
     logging.info(f"User selected {product_name}. Sending confirmation message.")
-    await call.answer("Вы успешно приобрели продукт!")  # подтверждающее сообщение
-    await call.bot.send_message(call.from_user.id, "Вы успешно приобрели продукт! Спасибо за покупку!")
-
+    await call.message.answer(f'Вы успешно приобрели продукт!')
 
 if __name__ == '__main__':
     logging.info("Starting the bot...")
